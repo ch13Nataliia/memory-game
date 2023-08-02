@@ -2,6 +2,13 @@ body {
   background: rgb(183, 194, 166);
   margin: 0;
 }
+
+.game-title {
+color: rgb(92, 89, 192);
+text-align: center;
+font-size: 50px;
+font-weight: 800;
+}
 .tiles {
   margin: 48px auto;
   width: max-content;
