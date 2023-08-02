@@ -11,11 +11,13 @@ const colors = [
 ];
 const colorsPickList = [...colors, ...colors];
 const tileCount = colorsPickList.length;
+
 // Game state
 
 let revealedCount = 0;
 let activeTile = null;
 let awaitingEndOfMove = false;
+
 
 function buildTile(color) {
   const element = document.createElement('div');

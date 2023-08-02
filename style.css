@@ -1,6 +1,8 @@
 body {
   background: rgb(183, 194, 166);
   margin: 0;
+  justify-content: center;
+  text-align: center;
 }
 
 .game-title {
@@ -13,12 +15,20 @@ font-weight: 800;
   margin: 48px auto;
   width: max-content;
   display: grid;
-  grid-template-columns: repeat(4, 280px);
+  grid-template-columns: repeat(4, 250px);
   gap: 16px;
 }
 .tile{
-  height: 180px;
+  height: 150px;
   background: black;
   border: 5px solid grey;
   cursor: pointer;
+}
+.reset {
+padding: 15px 20px;
+background: rgb(189, 181, 198);
+border: 5px solid grey;
+font-size: 1.5em;
+text-transform: uppercase;
+cursor: pointer;
 }
