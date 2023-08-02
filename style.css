@@ -1,0 +1,17 @@
+body {
+  background: rgb(160, 211, 77);
+  margin: 0;
+}
+.tiles {
+  margin: 48px auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+  gap: 16px;
+}
+.tile{
+  height: 100px;
+  background: black;
+  border: 5px solid grey;
+  cursor: pointer;
+}
