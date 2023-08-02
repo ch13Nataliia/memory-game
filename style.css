@@ -10,7 +10,7 @@ body {
   gap: 16px;
 }
 .tile{
-  height: 200px;
+  height: 180px;
   background: black;
   border: 5px solid grey;
   cursor: pointer;
